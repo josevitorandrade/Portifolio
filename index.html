@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+    <!--fontawensome cdn link-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+<!--custom css file link-->
+<link rel="stylesheet" href="estilo/style.css">
+
+
+
+    <title>Jv andrade</title>
+</head>
+<body>
+    
+<!--header section start-->
+
+<header>
+
+    <div id="menu-bars" class="fas fa-bars"></div>
+
+
+
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#sobremim">Sobre mim </a>
+        <a href="#servicos">Serviços</a>
+        <a href="#portifolio">portfólio</a>
+        <a href="#contato">Contato</a>
+    
+
+    </nav>
+    
+</header>
+
+
+<!--inicio sessao home-->
+
+<section class="home" id="home">
+
+    <div id="particles-js">
+
+
+    </div>
+    
+
+
+
+    <div class="content">
+        <img class="tilt" src="portfolio website/images/minhaimagem1 (2).png" alt="">
+        <h3>JV <span>Andrade</span></h3>
+        <p><span class="typing-text">Desenvolvedor Front-End</span></p>
+        <a href="#sobremim" class="btn">sobre mim</a>
+
+    </div>
+
+
+</section>
+
+<!-- fim sessão home -->
+
+
+<!-- sessao sobre mim  -->
+
+<section class="sobremim" id="sobremim">
+    <h1 class="heading">Sobre <span>mim</span></h1>
+
+
+    <div class="row">
+        
+        <div class="imagem">
+            <img class="tilt  imagem2  " src="portfolio website/images/minhaimagem1 (3).png"Z       alt="">
+        </div>
+
+        <div class="content">
+            <h3>Meu nome é   <span>José Vitor</span></h3>
+            <p class="info">
+                sou apaixonado por tecnologia. 
+                A minha primeira conexão com tecnologia foi em 2018 , 
+                quando ainda estava estudando no ensino médio, apesar
+                de ter gostado muito da área , só comecei a focar quando 
+                um amigo me apresentou em 2021 a área de desenvolvimento web .
+
+                Hoje já entendo algumas tecnologias voltadas para o Front-end.
+            </p>
+            <div class="box-container">
+                <div class="box">
+                <p><span> Idade: </span> 21 </p>
+                <p><span> Experiência  </span> menos de 1 ano </p>
+            </div>
+            <div class="box">
+                <p><span>  linguagem : </span> Português/Brasil </p>
+                <p><span> Telefone  </span> +55(1399691-8010) </p>
+                <p><span> Email  </span> jvandradedev@gmail.com
+                </p>
+                <p><span> Endereço  </span> Praia Grande, São Paulo, Brasil  </p>
+            </div>
+            
+            </div>
+            <a href="#" class="btn">Download CV</a>
+
+
+        </div>
+
+    </div>
+
+
+
+</section>
+<!-- fim sessao sobre mim -->
+
+
+<!-- sessao  serviços-->
+
+<section id="services" class="services">
+    <h1 class="heading"><span> Meus </span>Serviços</h1>
+
+    <div class="box-container">
+
+        <div class="box tilt">
+            <i class="i.fas.fa-code "></i>
+            <h3>Desenvolvimento Web</h3>
+            <p>HTML5,CSS3,JavaScript E BootStrap</p>
+            
+        </div>
+        <div class="box tilt">
+            <i class="i.fas.fa-mobile "></i>
+            <h3>Design Responsivo</h3>
+            <p></p>
+            
+        </div>
+       
+    </div>
+
+
+
+</section>
+
+
+
+<!-- fim sessao serviços -->
+
+
+<!-- sessao portifolio  -->
+    <section class="portifolio" id="portifolio">
+
+        <h1 class="heading"><span> Meu </span>Portífolio</h1>
+
+        <div class="box-container">
+
+            <div class="box tilt">
+                <img src="portfolio website/images/img-1.jpg" alt="">
+            <div>
+            <div class="content">
+                <a href="#" class="btn">Saiba mais</a>
+            </div>
+
+        </div>
+        <div class="box tilt">
+            <img src="portfolio website/images/img-2.jpg" alt="">
+        <div>
+        <div class="content">
+            <a href="#" class="btn">Saiba mais</a>
+        </div>
+
+    </div>
+    <div class="box tilt">
+        <img src="portfolio website/images/img-3.jpg" alt="">
+    <div>
+    <div class="content">
+        <a href="#" class="btn">Saiba mais</a>
+    </div>
+
+</div>
+    <div class="box tilt">
+        <img src="portfolio website/images/img-4.jpg" alt="">
+    <div>
+    <div class="content">
+        <a href="#" class="btn">Saiba mais</a>
+    </div>
+
+</div>
+
+    </section>
+
+
+
+<!-- final sessao portifolio -->
+
+
+
+
+
+
+
+<!-- javascript -->
+
+
+<!-- typed.js link -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+
+
+<!-- partículas js -->
+<script src="portfolio website/js/particles.min.js"></script>
+<script src="portfolio website/js/app.js"></script>
+
+<!-- vanilla-tilt.js link  -->
+<!-- vanilla-tilt.js link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+
+
+    
+</script>
+
+
+
+
+
+
+<script>
+    let menu = document.querySelector('#menu-bars');
+    let header = document.querySelector('header');
+
+menu.onclick = () =>{
+    menu.classList.toggle('fa-times');
+    header.classList.toggle('active');
+};
+
+window.onscroll = () =>{
+    menu.classList.remove('fa-times');
+    header.classList.remove('active');
+
+};
+var typed = new Typed('.typing-text',{
+    strings : ['desenvolvedor front-end','desenvolvedor front-end'],
+    loop : true,
+    typeSpeed: 150
+});
+
+VanillaTilt.init(document.querySelectorAll('.tilt'),{
+  max : 25
+});
+
+
+
+
+
+</script>
+
+
+
+
+
+</body>
+</html>
